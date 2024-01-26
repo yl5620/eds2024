@@ -1,14 +1,23 @@
 Package: eds2024
-Title: What the Package Does (One Line, Title Case)
+Title: Helper Functions for Effective Data Science 2023-24
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person(
+    given = "Yiyang",
+    family = "Li",
+    email = "yl5620@ic.ac.uk",
+    role = c("aut", "cre"))
+Description: A minimal example R package created during the first lives session 
+    of Effective Data Science 2023-24. This countains a simple function to 
+    calculate a moving average.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.0.0
+RoxygenNote: 7.3.0
 URL: https://github.com/yl5620/eds2024
 BugReports: https://github.com/yl5620/eds2024/issues
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    magrittr
